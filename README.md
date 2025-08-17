@@ -32,3 +32,9 @@ uv pip install --find-links ./packages -r requirements.txt --no-index
 - `requirements.txt`
 - `packages/` ディレクトリ（ダウンロードしたwheel/tarballファイル）
 - `pyproject.toml` (プロジェクト設定)
+
+### スクリプト実行
+
+```bash
+uv run .\src\excel_to_markdown.py
+```
